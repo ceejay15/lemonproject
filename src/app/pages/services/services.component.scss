@@ -1,0 +1,81 @@
+.service-content{
+    padding: 24px;
+
+    .title{
+        font-weight: bold;
+        font-size: 72px;
+        color: #000;
+        font-family: Poppins, sans-serif;
+    }
+
+    p{
+        font-weight: normal;
+        font-family: Poppins,sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        color:#A8AEB0;
+    }
+
+    .fibonnaci-grid{
+        gap: 10px;
+        display:flex;
+
+        font-size: 24px;
+        font-weight: normal;
+        font-family: Poppins, sans-serif;
+        
+        margin: 109px auto 32px;
+      
+
+        .left{
+            .card-top{
+                padding: 20px;
+                background: #DFE2E2;
+                width: 351px;
+                height:376px;
+                text-align: center;
+            }
+
+            .card-bottom{
+                padding: 20px;
+                background:#676868;
+                width: 351px;
+                height:376px;
+                text-align: center;
+            }
+            
+        }
+
+        .right{
+            .card-top{
+                padding: 20px;
+                background:#676868;
+                text-align: center;
+                width: 815px;
+                height: 497px;
+            }
+
+            .card-bottom{
+                display: flex;
+                flex-wrap:wrap;
+
+                .bottom-left{
+                    background: #F0F3F3;
+                    padding: 20px;
+                    width: 382px;
+                    height:255px;
+                    text-align: center;
+                }
+
+                .bottom-right{
+                    padding: 20px;
+                    background:#A8AEB0;
+                    text-align: center;
+                    width: 382px;
+                    height:255px;
+                }
+            }
+            
+        }
+    }
+}

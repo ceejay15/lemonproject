@@ -1,0 +1,12 @@
+<div class="sidebar">
+    <div class="progress-bar">
+        <div class="bar" [style.height]="barHeight"></div>
+     </div>
+     LEMON PROJECT
+     <ul>
+         <li><a routerLink="/" (click)="setPage('home')">About</a></li>
+         <li><a routerLink="/services" (click)="setPage('services')">Services</a></li>
+         <li><a routerLink="/works" (click)="setPage('works')">My Works</a></li>
+         <li><a routerLink="/contact" (click)="setPage('contact')">Hire Me</a></li>
+     </ul>
+</div>

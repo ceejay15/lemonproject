@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import url("https://use.typekit.net/vuu3uoq.css");
+
+
+@font-face {
+    font-family: Poppins;
+    src: url('./assets/Poppins/Poppins-Regular.woff');
+  }
+
+
+body{
+    padding:0 0;
+    margin: 0 0;
+
+    font-family: Poppins,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.content {
+    transition: all 0.5s ease;
+    // background: #A8AEB0;
+    height: 100%;
+    // margin-left: 250px;
+    margin-left:10%;
+    overflow: hidden;
+  }

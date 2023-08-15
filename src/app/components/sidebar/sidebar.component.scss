@@ -1,0 +1,92 @@
+.sidebar {
+    height: 100%;
+    width: 14.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    font-size: 28px;
+    font-family: Poppins, sans-serif;
+    margin: 0  24px 0;
+    overflow:hidden;
+  }
+
+  .logo{
+    width:65%;
+    cursor:pointer;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #676868;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #000;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  ul{
+    margin: 48px auto;
+  }
+
+  ul li{
+    list-style: none;
+    list-style-position: outside;
+    margin-left:-25%;
+    margin-top:45%;
+    margin-bottom: 45%;
+  }
+  
+  /* Add styling for slide selector */
+  .slide-selector {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    background-color: #111;
+  }
+  
+  .slide-selector input[type=range] {
+    width: 100%;
+  }
+.progress-bar{
+  background: #DFE2E2;
+  width:2px;
+  position: relative;
+  float: right;
+  height: 100vh;
+
+   
+    .bar{
+      background-color: #000;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 45%;
+      box-sizing: border-box;
+      animation: grow 1.5s ease-out forwards;
+      transform-origin: top;
+     }
+      @keyframes grow{
+        from{
+          transform: scaleY(0);
+        }
+      }
+        
+
+
+}
